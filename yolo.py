@@ -1,7 +1,7 @@
 # This code is written at BigVision LLC. It is based on the OpenCV project. It is subject to the license terms in the LICENSE file found in this distribution and at http://opencv.org/license.html
 
-# Usage example:  python3 object_detection_yolo.py --video=run.mp4
-#                 python3 object_detection_yolo.py --image=bird.jpg
+# Usage example:  python3 object_detection_yolo.py --video=data\run.mp4
+#                 python3 object_detection_yolo.py --image=data\bird.jpg
 
 import cv2 as cv
 import argparse
@@ -21,7 +21,7 @@ parser.add_argument('--video', help='Path to video file.')
 args = parser.parse_args()
         
 # Load names of classes
-classesFile = "coco.names";
+classesFile = "mscoco_labels.names";
 classes = None
 with open(classesFile, 'rt') as f:
     classes = f.read().rstrip('\n').split('\n')
