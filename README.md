@@ -18,8 +18,14 @@ YOLO and Fast RCNN are two different types of object detectors.
     <td>
       <img src="https://github.com/vjgpt/Object-Detection/blob/eddf8ec8b102b35b6efe36f954232fb90ee9e8f9/data/rcnn.gif">
     </td>
-  </tr>
+  </tr> 
 </table>
+
+- Yolov3 seems to have more accuracy than Fast Rcnn.
+- Yolov3 execution Frames per second is far better than Fast RCNN.
+- Yolov3 seems to detect small object precisely than larger object.
+- Fast RCNN works great on high resolution pictures and is more accurate.
+- For real time usage i think Yolov3 is better to implement in current scenario.(Although Faster RCNN can be used. we will try to cover it in future.)
 
 **Download the necessary weights and files.**
 
