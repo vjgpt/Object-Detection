@@ -67,5 +67,7 @@ If no argrument is passed, it start's the webcam.
 
 ## Credit 
 https://medium.com/@jonathan_hui/what-do-we-learn-from-single-shot-object-detectors-ssd-yolo-fpn-focal-loss-3888677c5f4d
+
 https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359
+
 https://github.com/spmallick
